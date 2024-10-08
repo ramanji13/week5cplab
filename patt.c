@@ -48,5 +48,41 @@ int main()
    printf("\n");
    }
 }
+//print numbers in lines
+#include<stdio.h>
+int main()
+{
+  int i,j,n,t=1;
+  printf("enter the limit :\n");
+  scanf("%d",&n);
+  for(i=1;i<=n;i++)
+  {
+    for(j=1;j<=i;j++)
+   {
+    printf("%d\t",t);
+    t++;
+    }
+    printf("\n");
+    
+    }
+}
+//abc in pattern format
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  char i,j,n,k;
+  printf("enter the value of n\n");
+  scanf("%c",&n);
+  for(i=65;i<=n;i++)
+  {
+   for(j=n;j>=i;j--){
+   
+   printf("%c ",j);
+   }
+  
+   printf("\n");
+   }
+   }
 
 
