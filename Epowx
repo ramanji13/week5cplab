@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    float i,j,k,sum=0,mul=1,fac=1,x,n;
+    printf("enter the value of x ");
+    scanf("%f",&x);
+    printf("enter the value of n ");
+    scanf("%f",&n);
+    for(i=1;i<=n;i++){
+        mul*=x;
+        printf("mul is  %f\n",mul
+        );
+    
+    for(j=1;j<=n;j++){
+        
+        fac*=i;
+        printf("fac is  %f\n",fac
+        );
+       break;
+    }    sum=sum+(mul/fac);
+      printf("sum is  %f\n",(sum+1)
+        );  
+    }
+    return 0;
+}
+
